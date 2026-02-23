@@ -1,0 +1,14 @@
+.venv/
+results/
+__pycache__/
+*.pyc
+
+# Testing/Linting
+.pytest_cache/
+.coverage
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.ipynb_checkpoints/
