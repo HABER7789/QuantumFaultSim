@@ -5,11 +5,11 @@
 <br/>
 
 <div align="center">
-  <strong>High-Performance Surface Code Threshold Simulator</strong>
+  <strong>High-Performance Surface Code Orchestration Framework</strong>
 </div>
 
 <div align="center">
-  A quantum error correction simulation engine that reproduces the ~0.7% fault-tolerance threshold under circuit-level noise.
+  An automated HPC pipeline built on Stim, PyMatching, and Sinter that reproduces the ~0.7% fault-tolerance threshold under circuit-level noise.
 </div>
 
 <br/>
@@ -35,7 +35,7 @@
 
 Quantum computers are inherently fragile. To perform massive calculations without errors destroying the internal state, we use **Quantum Error Correction (QEC)**. 
 
-**QuantumFaultSim** is an HPC-accelerated framework designed to simulate the Rotated Surface Code. By combining `Stim`'s Clifford backend, `PyMatching`'s structural graph optimization, and `Sinter`'s parallel orchestration, this engine distributes Monte Carlo workloads across local CPU cores to reduce simulation research time.
+**QuantumFaultSim** is an HPC-accelerated orchestration framework designed to automate Monte Carlo threshold simulations for the Rotated Surface Code. Rather than building a simulator from scratch, it serves as a highly modular pipeline combining `Stim`'s Clifford backend, `PyMatching`'s graph matching decoder, and `Sinter`'s parallel orchestration. This framework automatically distributes workloads across local CPU cores, manages heavy data collection, and computes accurate scaling thresholds.
 
 ---
 
